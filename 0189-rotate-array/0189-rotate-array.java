@@ -4,8 +4,7 @@ class Solution {
             int temp=nums[left];
             nums[left]=nums[right];
             nums[right]=temp;
-            left++;
-            right--;
+            left++;right--;
         }
     }
     public void rotate(int[] nums, int k) {
