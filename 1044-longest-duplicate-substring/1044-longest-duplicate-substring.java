@@ -1,7 +1,7 @@
 class Solution {
     static final long MOD1 = 1_000_000_007L;
     static final long MOD2 = 1_000_000_009L;
-    static final long BASE = 911382323L;
+    static final long BASE = 100L;
 
     private int check(String s, int len, long[] h1, long[] h2,
                       long[] power1, long[] power2) {
